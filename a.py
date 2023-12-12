@@ -194,9 +194,9 @@ else:
 '''
 
  #   18. Create a Python script using regular expressions to replace all occurrences of the word "is" with "was" in a given string. Test it with the string "This island is beautiful."
-'''
+
 import re
 st = "This island is beautiful"
 x = re.sub(" is ", " was " ,st ,1 )
 print(x)
-'''	
+
